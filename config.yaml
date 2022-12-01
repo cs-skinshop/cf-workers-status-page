@@ -17,17 +17,17 @@ settings:
 monitors:
   - id: cs-shop # unique identifier
     name: cs-shop.it
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'Sito CS SHOP' # default=empty
     url: 'https://cs-shop.it/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: ServerFivem
+    name: CS SHOP FiveM
+    description: 'Server FiveM CS SHOP'
+    url: 'https://fivem.cs-shop.it'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
